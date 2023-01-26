@@ -1,4 +1,4 @@
-import './../css/Clients.css';
+import './../styles/css/main.css';
 
 function Clients() {
     return(

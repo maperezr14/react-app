@@ -1,0 +1,15 @@
+@use 'base/normalize';
+@use 'base/typos';
+
+@use 'utilities/variables';
+
+@use 'layout/header';
+@use 'layout/general';
+@use 'layout/footer';
+
+@use 'components/banner';
+@use 'components/aboutus';
+@use 'components/team';
+@use 'components/services';
+@use 'components/clients';
+@use 'components/contact';

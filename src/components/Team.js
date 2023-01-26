@@ -1,4 +1,4 @@
-import './../css/Team.css';
+import './../styles/css/main.css';
 
 function Team() {
     return(
