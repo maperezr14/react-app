@@ -1,3 +1,13 @@
 // Header
 @import "../utilities/variables";
 
+
+header {
+    .navbar {
+        .lista-opciones {
+            li {
+                color: red;
+            }
+        }
+    }
+}
