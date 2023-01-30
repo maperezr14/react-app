@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 *,
 *:before,
 *:after {
@@ -44,4 +48,41 @@ body a {
   .only-desktop {
     display: block;
   }
+}
+
+.team {
+  background-color: #568281;
+}
+.team .container h2 {
+  margin-top: 50px;
+  font-family: "prata", serif;
+  color: white;
+  font-size: 32px;
+}
+.team .container .fotos-equipo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.team .container .fotos-equipo .fotos {
+  width: 30%;
+  margin: 15px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .team .container .fotos-equipo .fotos {
+    width: 100%;
+  }
+}
+.team .container .fotos-equipo .fotos .imagen-redonda {
+  margin: 0 10px;
+  border-radius: 100%;
+  max-width: 150px;
+}
+.team .container .fotos-equipo .fotos p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 10px;
 }/*# sourceMappingURL=main.css.map */

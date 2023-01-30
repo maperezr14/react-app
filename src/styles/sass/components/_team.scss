@@ -1,0 +1,44 @@
+.team{
+    background-color: #568281;
+        .container{
+            h2{
+              margin-top: 50px;
+              font-family: 'prata' , serif;
+              color: white;
+              font-size: 32px;
+             
+
+            }
+            .fotos-equipo {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            
+                .fotos{
+                    width: 30%;
+                    margin: 15px;
+                    text-align: center;
+                    @media screen and (max-width: 768px) {
+                        width: 100%;
+                    }
+                    .imagen-redonda{
+                        margin: 0 10px;
+                        border-radius: 100%;
+                        max-width: 150px;
+                       }
+                       p{
+                        font-family: 'Roboto', sans-serif;
+                        color: white;
+                        font-size: 10px;
+
+                       }
+                }
+            }
+            
+          
+        }
+        
+            
+}
