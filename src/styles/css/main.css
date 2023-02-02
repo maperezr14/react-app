@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 *,
 *:before,
 *:after {
@@ -44,4 +48,157 @@ body a {
   .only-desktop {
     display: block;
   }
+}
+
+.sectionServices {
+  display: flex;
+  padding-bottom: 400px;
+}
+@media screen and (max-width: 375px) {
+  .sectionServices {
+    padding-bottom: 300px;
+  }
+}
+.sectionServices .container {
+  padding: 0;
+  margin: 0 auto;
+}
+.sectionServices .container h2 {
+  text-align: center;
+  font-family: "Prata", serif;
+}
+@media screen and (max-width: 375px) {
+  .sectionServices .container h2 {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .sectionServices .container .firstGroup .sliderOne {
+    display: flex;
+  }
+}
+.sectionServices .container .firstGroup .sliderOne li {
+  width: 95%;
+  opacity: 0;
+  transition: opacity 0.5s;
+  position: absolute;
+  left: 30px;
+  top: 250px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 30px;
+  background: white;
+  list-style: none inside;
+}
+@media screen and (max-width: 375px) {
+  .sectionServices .container .firstGroup .sliderOne li {
+    width: 95%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: absolute;
+    left: 10px;
+    top: 220px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 30px;
+    list-style: none inside;
+  }
+}
+.sectionServices .container .firstGroup .sliderOne li .desktopVer {
+  width: 50%;
+  padding-left: 20px;
+}
+@media screen and (max-width: 375px) {
+  .sectionServices .container .firstGroup .sliderOne li .desktopVer {
+    display: none;
+  }
+}
+.sectionServices .container .firstGroup .sliderOne li .movilVer {
+  display: none;
+}
+@media screen and (max-width: 375px) {
+  .sectionServices .container .firstGroup .sliderOne li .movilVer {
+    width: 100%;
+    display: flex;
+  }
+}
+.sectionServices .container .firstGroup .sliderOne li h3 {
+  width: 30%;
+  position: absolute;
+  color: black;
+  font-size: 38px;
+  font-family: "Prata", serif;
+  left: 750px;
+  top: 70px;
+}
+@media screen and (max-width: 375px) {
+  .sectionServices .container .firstGroup .sliderOne li h3 {
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+    left: 0px;
+    top: 18px;
+  }
+}
+.sectionServices .container .firstGroup .sliderOne li p {
+  width: 30%;
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  left: 750px;
+  top: 220px;
+}
+@media screen and (max-width: 375px) {
+  .sectionServices .container .firstGroup .sliderOne li p {
+    width: 100%;
+    position: relative;
+    left: 15px;
+    top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 10px;
+  }
+}
+.sectionServices .container .firstGroup .sliderOne li:first-child {
+  opacity: 1;
+}
+.sectionServices .container .firstGroup .sliderOne li:target {
+  opacity: 1;
+}
+.sectionServices .container nav {
+  position: relative;
+  top: 400px;
+  left: 0px;
+}
+@media screen and (max-width: 375px) {
+  .sectionServices .container nav {
+    top: 300px;
+  }
+}
+.sectionServices .container nav .menu {
+  padding-left: 600px;
+  padding-right: 600px;
+}
+@media screen and (max-width: 375px) {
+  .sectionServices .container nav .menu {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.sectionServices .container nav .menu .button {
+  padding: 0;
+  margin: 0;
+  list-style: none inside;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sectionServices .container nav .menu a {
+  text-decoration: none;
+  width: 15px;
+  height: 15px;
+  border: 0.1px solid white;
+  background: #568281;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
