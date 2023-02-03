@@ -16,6 +16,7 @@
             align-content: center;
             justify-content: center;
             
+            
                 .fotos{
                     width: 30%;
                     margin: 15px;
@@ -23,6 +24,10 @@
                     @media screen and (max-width: 768px) {
                         width: 100%;
                     }
+                    #kiara{
+                        transform: rotate(-10deg);
+                    }
+                    
                     .imagen-redonda{
                         margin: 0 10px;
                         border-radius: 100%;

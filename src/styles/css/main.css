@@ -74,6 +74,7 @@ body a {
 @media screen and (max-width: 768px) {
   .team .container .fotos-equipo .fotos {
     width: 100%;
+    transform: rotate -100deg;
   }
 }
 .team .container .fotos-equipo .fotos .imagen-redonda {
