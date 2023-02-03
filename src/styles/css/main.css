@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 *,
 *:before,
 *:after {
@@ -43,5 +47,61 @@ body a {
 @media screen and (min-width: 1181px) {
   .only-desktop {
     display: block;
+  }
+}
+
+section .container {
+  display: flex;
+  background-color: #568281;
+  width: 100%;
+  padding: 15px;
+}
+section .container h2 {
+  color: white;
+  font-family: "prata", serif;
+  font-size: 32px;
+  padding-top: 20px;
+}
+section .container p {
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  width: 60%;
+  text-align: center;
+}
+section .containerClients {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin: 50px;
+  overflow: hidden;
+}
+section .containerClients .sliderClients {
+  display: flex;
+  -webkit-animation: scroll 20s linear infinite;
+          animation: scroll 20s linear infinite;
+  width: 2800px;
+}
+section .containerClients .sliderClients .imgSlider {
+  width: 200px;
+}
+section .containerClients .sliderClients .imgSlider img {
+  width: 100%;
+  padding-left: 50px;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1400px);
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1400px);
   }
 }/*# sourceMappingURL=main.css.map */

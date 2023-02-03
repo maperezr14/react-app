@@ -1,0 +1,56 @@
+section{
+    .container{
+        display: flex;
+        background-color: #568281;
+        width: 100%;
+        padding: 15px;
+
+        h2{
+            color: white;
+            font-family: 'prata', serif;
+            font-size: 32px;
+            padding-top: 20px; 
+        }
+
+        p{
+            color: white;
+            font-family: 'Roboto';
+            font-size: 18px;
+            width: 60%;
+            text-align: center;
+        }
+    }
+    .containerClients{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin: 50px;
+        overflow: hidden;
+
+        .sliderClients{
+            display:flex;
+            animation: scroll 20s linear infinite;
+            width: calc(200px * 14);
+
+            .imgSlider{
+                width: 200px;
+
+                img{
+                    width: 100%;
+                    padding-left: 50px;
+
+                    @keyframes scroll {
+                        0%{
+                            -webkit-transform: translateX(0);
+                            transform: translateX(0);
+                        }
+                        100%{
+                            -webkit-transform: translateX(calc(-200px * 7));
+                            transform: translateX(calc(-200px * 7));
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
