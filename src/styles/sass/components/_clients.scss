@@ -1,4 +1,4 @@
-section{
+.sectionClients {
     .container{
         display: flex;
         background-color: #568281;
@@ -18,38 +18,23 @@ section{
             font-size: 18px;
             width: 60%;
             text-align: center;
+            margin: 0 auto;
+            @media screen and (max-width: 767px) {
+                width: 90%;
+            }
         }
     }
     .containerClients{
-        background-color: white;
+        background-color: #DFD7CA;
         width: 100%;
         height: auto;
         margin: 50px;
         overflow: hidden;
 
         .sliderClients{
-            display:flex;
-            animation: scroll 20s linear infinite;
-            width: calc(200px * 14);
-
             .imgSlider{
                 width: 200px;
-
-                img{
-                    width: 100%;
-                    padding-left: 50px;
-
-                    @keyframes scroll {
-                        0%{
-                            -webkit-transform: translateX(0);
-                            transform: translateX(0);
-                        }
-                        100%{
-                            -webkit-transform: translateX(calc(-200px * 7));
-                            transform: translateX(calc(-200px * 7));
-                        }
-                    }
-                }
+                margin: 0 auto;
             }
         }
     }
