@@ -38,7 +38,7 @@ const kiaServices = [
 
 function Services() {
     return( 
-        <section className='section sectionServices'>
+        <section id='Servicios' className='section sectionServices'>
             <div className='container'>
                 <h2>NUESTROS SERVICIOS</h2>
                 <Slider {...sliderSettings} className='sliderServices'>
