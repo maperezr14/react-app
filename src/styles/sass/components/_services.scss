@@ -1,165 +1,64 @@
- .sectionServices{
-   display: flex;
-   padding-bottom: 400px;
-          @media screen and (max-width: 375px){
-             padding-bottom: 300px;
-         }
-         .container{
-            padding: 0;
-            margin: 0 auto;
-                  h2{
-                     text-align: center;
-                     font-family: 'Prata', serif;
-                        @media screen and (max-width: 375px) {
-                            font-size: 23px;
-                            
-                        }
-
+.sectionServices {
+      .container {
+         padding: 0;
+         margin: 0 auto;
+            h2{
+               text-align: center;
+               font-family: 'Prata', serif;
+            }
+            .sliderServices {
+               width: 80%;
+               margin: 0 auto;
+               .itemSlider {
+                  display: flex!important;
+                  flex-direction: row;
+                  align-items: center;
+                  align-content: center;
+                  justify-content: space-between;
+                  @media screen and (max-width:767px) {
+                     flex-direction: column;
                   }
-                  .firstGroup{
-                     
-                     .sliderOne {
-                        @media screen and (max-width: 375px) {
-                           display: flex;
-                        }
-                        li {
-                        width: 95%;
-                        opacity: 0; 
-                        transition: opacity .5s ;
-                        position: absolute; 
-                        left: 30px;
-                        top: 250px;
-                        margin:0px;
-                        padding:0px;
-                        border-radius: 30px;
-                        background: white;
-                        list-style: none inside;
-                              @media screen and (max-width: 375px) {
-                                 width: 95%;
-                                 opacity: 0; 
-                                 transition: opacity .5s ;
-                                 position: absolute; 
-                                 left: 10px;
-                                 top: 220px;
-                                 margin:0px;
-                                 padding:0px;
-                                 border-radius: 30px;
-                                 list-style: none inside;
-                              }
-                           
-                           .desktopVer{
-                              width: 50%;
-                              padding-left: 20px;
-                                 @media screen and (max-width:375px) {
-                                    display: none;
-                                 }
-                           }
-                           .movilVer{
-                                 display: none;
-                                 @media screen and (max-width:375px) {
-                                    width: 100%;
-                                    display: flex;
-                                 }
-                              }
-                           h3{
-                              width: 30%;
-                              position: absolute;
-                              color: black;
-                              font-size: 38px;
-                              font-family: 'Prata', serif;
-                              left: 750px;
-                              top: 70px;
-                                 @media screen and (max-width:375px) {
-                                    position: relative;
-                                    width: 100%;
-                                    font-size: 18px;
-                                    left: 0px;
-                                    top: 18px;
-                                 }
-                           }
-                           p{
-                              width: 30%;
-                              position: absolute;
-                              color: black;
-                              font-size: 16px;
-                              font-family: 'Roboto', sans-serif;
-                              left: 750px;
-                              top: 220px;
-                                 @media screen and (max-width:375px) {
-                                    width: 100%;
-                                    position: relative;
-                                    left: 15px;
-                                    top: 0px;
-                                    padding-left: 40px;
-                                    padding-right: 40px;
-                                    font-size: 10px;
-                                 }
-                           
-                           }
-                           &:first-child {
-                              opacity: 1;
-                           }
-                           &:target {
-                              opacity: 1; 
-                           }
-                        }
-                        
+
+                   picture {
+                     width: 50%;
+                     @media screen and (max-width:767px) {
+                        width: 100%
                      }
-
-
-                  }
-                  nav {
-                     position:relative;
-                     top:400px;
-                     left:0px;
-                        @media screen and (max-width: 375px) {
-                           top: 300px;
-                        }
-                         .menu {
-                           padding-left: 600px;
-                           padding-right: 600px;
-                              @media screen and (max-width:375px) {
-                                 padding-left: 0px;
-                                 padding-right: 0px;
-                              }
-                              .button{
-                                 padding: 0;
-                                 margin: 0;
-                                 list-style: none inside;
-                                 display: flex;
-                                 justify-content: space-around;
-                                 flex-wrap: wrap;
-                               }
-                                 a{
-                                    text-decoration: none;
-                                    width: 15px; 
-                                    height: 15px; 
-                                    border: 0.1px solid white;
-                                    background: #568281;
-                                    color: white;
-                                    
-                                 
+                     img {
+                        width: 100%;
+                     }
+                   }
+                   .caption{
+                     width: 50%;
+                     @media screen and (max-width:767px) {
+                        width: 100%;
+                        margin: 35px 0;
+                     }
+                        h3{
+                           color: black;
+                           font-size: 38px;
+                           font-family: 'Prata', serif;
+                              @media screen and (max-width:767px) {
+                                 width: 100%;
+                                 font-size: 18px;
                               }
                         }
-                  }
-                  
-         }
- }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                        p{
+                           width: 70%;
+                           color: black;
+                           font-size: 16px;
+                           font-family: "Roboto", sans-serif;
+                           margin: 0 auto;
+                           text-align: center;
+                              @media screen and (max-width:767px) {
+                                 width: 100%;
+                                 padding-left: 40px;
+                                 padding-right: 40px;
+                                 font-size: 10px;
+                              }
+                        }
+                   }
+               }
+            }
+      }
+}
