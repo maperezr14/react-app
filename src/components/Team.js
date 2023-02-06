@@ -1,49 +1,54 @@
-import './../styles/css/main.css';
+import './../styles/css/main.css'; 
+
+const teamGroup =[
+{
+  imgProfile: './images/Ellipse 9.jpg',
+  name:'SILVIA PINO',
+  profile: 'FULLSTACK DEVELOPER'
+},
+{
+  imgProfile:'./images/18221255.jpg',
+  name:'MARI ANGELES',
+  profile:'FULLSTACK DEVELOPER'
+},
+{
+  imgProfile:'./images/Rectangle 38.png',
+  name:'VALERY  SUAREZ',
+  profile:'FULLSTACK DEVELOPER'
+},
+{
+  imgProfile:'./images/Ellipse 6.jpg',
+  name:'MILA GALIANO',
+  profile:'FULLSTACK DEVELOPER'
+},
+{
+  imgProfile:'./images/kiara.jpg',
+  name:'KIARA MALASQUEZ',
+  profile:'FULLSTACK DEVELOPER'
+},
+{
+  imgProfile:'./images/fati.jpg',
+  name:'FÁTIMA GARCIA FERNANDEZ',
+  profile:'FULLSTACK DEVELOPER'
+}
+]
 function Team() {
     return(
       <section className="team">
-        <div className="container">
+          <div className="container">
             <h2>Nuestro Equipo</h2>
-         <div className='fotos-equipo'>
-            <div className="fotos">
-            <img className="imagen-redonda" src="./images/Ellipse 9.jpg" alt=""></img>
-            <p>SILVIA PINO </p>
-            <p> FULLSTACK DEVELOPER</p>
-
-          </div>  
-          <div className="fotos">
-            <img className="imagen-redonda" src="./images/18221255.jpg" alt=""></img>
-            <p> MARI ANGELES</p>
-           <p>FULLSTACK DEVELOPER</p>
-
-
-          </div>  
-          <div className="fotos">
-            <img  className="imagen-redonda" src="./images/Rectangle 38.png" alt=""></img>
-            <p>VALERY  SUAREZ</p>
-            <p>FULLSTACK DEVELOPER</p>
-
-
-          </div>  
-          <div className="fotos">
-            <img className="imagen-redonda" src="./images/Ellipse 6.jpg" alt=""></img>
-             <p> MILA GALIANO</p>
-             <p>FULLSTACK DEVELOPER</p>
-
-          </div>  
-          <div className="fotos">
-            <img className="imagen-redonda" id="kiara" src="./images/kiara.jpg" alt=""></img>
-            <p>KIARA MALASQUEZ</p>
-            <p>FULLSTACK DEVELOPER</p>
-          </div>  
-          <div className="fotos">
-            <img className="imagen-redonda" src="./images/fati.jpg" alt=""></img>
-            <p>FÁTIMA GARCIA FERNANDEZ</p>
-            <p>FULLSTACK DEVELOPER</p> 
-          </div>  
-
-          </div>     
-        </div>
+            <div className='fotos-equipo'>
+              {
+                teamGroup.map(team => (
+                <div className="fotos">
+                  <img className="imagen-redonda" src={team.imgProfile} alt={team.name}></img>
+                  <p>{team.name}</p>
+                  <p>{team.profile}</p>
+                </div>
+              ))
+              }       
+            </div>     
+          </div>
       </section>
     )
 }  
