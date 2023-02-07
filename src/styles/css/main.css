@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
-<<<<<<< HEAD
 header {
   background-color: #2F3E45;
   position: fixed;
@@ -86,10 +85,6 @@ header .container .navbar .hamburger {
   }
 }
 
-=======
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
->>>>>>> vale-dev
 *,
 *:before,
 *:after {
@@ -154,7 +149,6 @@ body .section .container {
   }
 }
 
-<<<<<<< HEAD
 footer {
   background-color: #2F3E45;
 }
@@ -336,6 +330,43 @@ section .textoimagen .img_sobrenosotros img {
   }
 }
 
+.sectionClients .container {
+  display: flex;
+  background-color: #568281;
+  width: 100%;
+  padding: 15px;
+}
+.sectionClients .container h2 {
+  color: white;
+  font-family: "prata", serif;
+  font-size: 32px;
+  padding-top: 20px;
+}
+.sectionClients .container p {
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .sectionClients .container p {
+    width: 90%;
+  }
+}
+.sectionClients .containerClients {
+  background-color: #DFD7CA;
+  width: 100%;
+  height: auto;
+  margin: 50px;
+  overflow: hidden;
+}
+.sectionClients .containerClients .sliderClients .imgSlider {
+  width: 200px;
+  margin: 0 auto;
+}
+
 .section-contact .container .content-rs-form {
   max-width: 80%;
   margin: 0 auto;
@@ -466,41 +497,4 @@ section .textoimagen .img_sobrenosotros img {
   padding: 20px;
   font-weight: 400;
   border-radius: 8px;
-=======
-.sectionClients .container {
-  display: flex;
-  background-color: #568281;
-  width: 100%;
-  padding: 15px;
-}
-.sectionClients .container h2 {
-  color: white;
-  font-family: "prata", serif;
-  font-size: 32px;
-  padding-top: 20px;
-}
-.sectionClients .container p {
-  color: white;
-  font-family: "Roboto";
-  font-size: 18px;
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-}
-@media screen and (max-width: 767px) {
-  .sectionClients .container p {
-    width: 90%;
-  }
-}
-.sectionClients .containerClients {
-  background-color: #DFD7CA;
-  width: 100%;
-  height: auto;
-  margin: 50px;
-  overflow: hidden;
-}
-.sectionClients .containerClients .sliderClients .imgSlider {
-  width: 200px;
-  margin: 0 auto;
->>>>>>> vale-dev
 }/*# sourceMappingURL=main.css.map */
