@@ -2,7 +2,7 @@ import './../styles/css/main.css';
 
 function Banner() {
     return(
-        <section>
+        <section className='section sectionBanner'>
             <div className="banner-inicio">
                 <picture>
 	                <source media="(max-width: 633px)" srcset="./images/img-bannermovil.png"/>
