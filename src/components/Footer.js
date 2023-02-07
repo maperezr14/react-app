@@ -2,7 +2,11 @@ import './../styles/css/main.css';
 
 function Footer() {
     return(
-        <p>Aqui va el HTML de "Footer"</p>
+        <footer>
+            <div className='container'>
+                <p>&copy; FemCoders 2023 - Todos los derechos reservados.</p>
+            </div>
+        </footer>
     )
 }  
 

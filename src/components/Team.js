@@ -34,7 +34,7 @@ const teamGroup =[
 ]
 function Team() {
     return(
-      <section className="team">
+      <section id='nuestro-equipo' className='section sectionTeam team'>
           <div className="container">
             <h2>Nuestro Equipo</h2>
             <div className='fotos-equipo'>
