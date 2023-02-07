@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 16px;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  text-align: center;
+  max-width: 90%;
+}
+@media screen and (min-width: 1181px) {
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-size: 38px;
+    margin-bottom: 45px;
+  }
+}
+body a {
+  text-decoration: none;
+}
+
+.only-mobile {
+  display: block;
+}
+@media screen and (min-width: 1181px) {
+  .only-mobile {
+    display: none;
+  }
+}
+
+.only-desktop {
+  display: none;
+}
+@media screen and (min-width: 1181px) {
+  .only-desktop {
+    display: block;
+  }
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+section h2 {
+  text-align: center;
+  font-family: "Prata", serif;
+  font-size: 32px;
+}
+section .textoimagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  section .textoimagen {
+    flex-direction: column;
+  }
+}
+section .textoimagen .textoprinp {
+  flex-direction: column;
+  font-family: "Roboto" sans-serif;
+  font-size: 20px;
+  margin-right: 3%;
+  max-width: 35%;
+}
+@media screen and (max-width: 768px) {
+  section .textoimagen .textoprinp {
+    max-width: 90%;
+    margin-bottom: 30px;
+  }
+}
+section .textoimagen .img_sobrenosotros {
+  width: 20%;
+}
+@media screen and (max-width: 768px) {
+  section .textoimagen .img_sobrenosotros {
+    width: 60%;
+  }
+}
+section .textoimagen .img_sobrenosotros img {
+  border-radius: 100%;
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+  section .textoimagen .img_sobrenosotros img {
+    width: 100%;
+  }
+}
+
+.team {
+  background-color: #568281;
+}
+.team .container h2 {
+  margin-top: 50px;
+  font-family: "prata", serif;
+  color: white;
+  font-size: 32px;
+}
+.team .container .fotos-equipo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.team .container .fotos-equipo .fotos {
+  width: 30%;
+  margin: 15px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .team .container .fotos-equipo .fotos {
+    width: 100%;
+  }
+}
+.team .container .fotos-equipo .fotos #kiara {
+  transform: rotate(-10deg);
+}
+.team .container .fotos-equipo .fotos .imagen-redonda {
+  margin: 0 10px;
+  border-radius: 100%;
+  max-width: 150px;
+}
+.team .container .fotos-equipo .fotos p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 10px;
+}
+
+.sectionServices .container {
+  padding: 0;
+  margin: 0 auto;
+}
+.sectionServices .container h2 {
+  text-align: center;
+  font-family: "Prata", serif;
+}
+.sectionServices .container .sliderServices {
+  width: 80%;
+  margin: 0 auto;
+}
+.sectionServices .container .sliderServices .itemSlider {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .sectionServices .container .sliderServices .itemSlider {
+    flex-direction: column;
+  }
+}
+.sectionServices .container .sliderServices .itemSlider picture {
+  width: 50%;
+}
+@media screen and (max-width: 767px) {
+  .sectionServices .container .sliderServices .itemSlider picture {
+    width: 100%;
+  }
+}
+.sectionServices .container .sliderServices .itemSlider picture img {
+  width: 100%;
+}
+.sectionServices .container .sliderServices .itemSlider .caption {
+  width: 50%;
+}
+@media screen and (max-width: 767px) {
+  .sectionServices .container .sliderServices .itemSlider .caption {
+    width: 100%;
+    margin: 35px 0;
+  }
+}
+.sectionServices .container .sliderServices .itemSlider .caption h3 {
+  color: black;
+  font-size: 38px;
+  font-family: "Prata", serif;
+}
+@media screen and (max-width: 767px) {
+  .sectionServices .container .sliderServices .itemSlider .caption h3 {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+.sectionServices .container .sliderServices .itemSlider .caption p {
+  width: 70%;
+  color: black;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .sectionServices .container .sliderServices .itemSlider .caption p {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */
