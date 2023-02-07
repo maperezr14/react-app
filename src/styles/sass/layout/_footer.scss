@@ -1,0 +1,13 @@
+// Header
+@import "../utilities/variables";
+
+footer {
+    background-color: $color-azul-1;
+    .container {
+        padding: 10px 15px;
+        p {
+            color: $color-azul-3;
+            text-align: center;
+        }        
+    }    
+}
