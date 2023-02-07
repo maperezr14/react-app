@@ -1,3 +1,80 @@
 // Header
 @import "../utilities/variables";
 
+header {
+    background-color: $color-azul-1;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    top: 0;
+    .container {
+        padding: 10px 15px;
+        @media screen and (max-width: 767px) {
+            padding: 0px 15px;
+        }
+        .navbar {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            align-content: center;
+           justify-content: space-between;
+            .nav-links {
+                li {
+                    .option {
+                        color: $color-rosa;
+                        font-family: 'Prata';
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        @media screen and (max-width: 767px) {
+                            color: $color-azul-1;
+                            margin-bottom: 15px;
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .logo {
+                width: 130px;
+                @media screen and (max-width: 767px) {
+                    width: 90px;  
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .menu {
+                display: flex;    
+                gap: 1em;    
+                @media screen and (max-width: 767px) {
+                    display: none;
+                    position: absolute;
+                    background-color: $color-rosa;;
+                    right: 0;
+                    left: 0;
+                    top: 69px;
+                    text-align: center;
+                    padding: 25px 0;
+                }
+            }
+            #checkbox_toggle{
+                display: none;
+                @media screen and (max-width: 767px) {
+                    &:checked {
+                        ~ .menu{
+                            display: block;    
+                        }
+                    }
+                }
+            } 
+            .hamburger {
+                display: none;
+                font-size: 28px;
+                user-select: none;
+                color: #DFD7CA;
+                @media screen and (max-width: 767px) {
+                    display: block;
+                }
+            }   
+        }
+    }    
+}
