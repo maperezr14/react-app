@@ -2,7 +2,14 @@ import './../styles/css/main.css';
 
 function Banner() {
     return(
-        <p>Aqui va el HTML de "Banner Principal"</p>
+        <section>
+            <div className="banner-inicio">
+                <picture>
+	                <source media="(max-width: 633px)" srcset="./images/img-bannermovil.png"/>
+	                <img src="./images/img-banner.png"alt="banner"/>
+                </picture>
+            </div>
+        </section>
     )
 }  
 

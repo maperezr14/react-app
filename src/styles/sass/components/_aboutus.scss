@@ -1,0 +1,43 @@
+section{
+    
+    h2 {
+        text-align: center;
+        font-family: 'Prata', serif;
+        font-size: 32px;
+    }
+    .textoimagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+        @media screen and (max-width: 768px){
+            flex-direction: column;
+        }
+        .textoprinp{
+            flex-direction: column;
+            font-family:'Roboto' sans-serif;
+            font-size: 20px;   
+            margin-right: 3%;
+            max-width: 35%;
+            @media screen and (max-width: 768px){
+                max-width: 90%;
+                margin-bottom: 30px;
+                }
+        }
+        .img_sobrenosotros{
+            width: 20%;
+            @media screen and (max-width: 768px){
+                width: 60%;
+                }
+            img{
+                border-radius: 100%;
+                width: 90%;
+                @media screen and (max-width: 768px){
+                    width: 100%;
+                    }
+                }
+            }
+        }     
+    }             
+
