@@ -2,7 +2,7 @@ import './../styles/css/main.css';
 
 function Aboutus() {
     return(
-        <section>
+        <section id='nosotros' className='section sectionAboutUs'>
             <div className="container">
                 <h2>SOBRE NOSOTRAS</h2>
                 <div className='textoimagen'>

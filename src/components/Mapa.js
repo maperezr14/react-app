@@ -1,15 +1,4 @@
 import './../styles/css/main.css';
-// import React from 'react';
-
-// function Mapa() {
-//   return (
-//     <div className='map-area'>
-//       mapa
-//     </div>
-//   )
-// }
-
-// export default Mapa
 
 // API google maps: AIzaSyDuj1zTOb2Tb8JDPZjgo9FbI7wnKbGQa70
 
@@ -45,7 +34,6 @@ const [map, setMap] = React.useState(null)
   
   return (
     <div className='map-area'>
-      {/* <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={18} onLoad={onLoad} onUnmount={onUnmount}></GoogleMap> */}
       {isLoaded ? <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={13} onLoad={onLoad} onUnmount={onUnmount}><></></GoogleMap> :<></>}
     </div>
   )  

@@ -160,8 +160,14 @@ footer .container p {
   text-align: center;
 }
 
-section {
+.sectionBanner {
   margin-bottom: 70px;
+}
+.sectionBanner picture {
+  width: 100%;
+}
+.sectionBanner picture img {
+  width: 100%;
 }
 
 section h2 {
