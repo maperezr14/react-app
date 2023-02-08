@@ -1,0 +1,41 @@
+.sectionClients {
+    .container{
+        display: flex;
+        background-color: #568281;
+        width: 100%;
+        padding: 15px;
+
+        h2{
+            color: white;
+            font-family: 'prata', serif;
+            font-size: 32px;
+            padding-top: 20px; 
+        }
+
+        p{
+            color: white;
+            font-family: 'Roboto';
+            font-size: 18px;
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+            @media screen and (max-width: 767px) {
+                width: 90%;
+            }
+        }
+    }
+    .containerClients{
+        background-color: #DFD7CA;
+        width: 100%;
+        height: auto;
+        margin: 50px;
+        overflow: hidden;
+
+        .sliderClients{
+            .imgSlider{
+                width: 200px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
