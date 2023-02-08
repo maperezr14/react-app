@@ -75,7 +75,6 @@ header .container .navbar .hamburger {
   font-size: 28px;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   color: #DFD7CA;
 }
@@ -191,7 +190,7 @@ section .textoimagen .textoprinp {
   flex-direction: column;
   font-family: "Roboto" sans-serif;
   font-size: 20px;
-  margin-right: 3%;
+  margin-right: 100px;
   max-width: 35%;
 }
 @media screen and (max-width: 768px) {
@@ -201,7 +200,7 @@ section .textoimagen .textoprinp {
   }
 }
 section .textoimagen .img_sobrenosotros {
-  width: 20%;
+  width: 40%;
 }
 @media screen and (max-width: 768px) {
   section .textoimagen .img_sobrenosotros {
@@ -209,7 +208,7 @@ section .textoimagen .img_sobrenosotros {
   }
 }
 section .textoimagen .img_sobrenosotros img {
-  border-radius: 100%;
+  border-radius: 10%;
   width: 90%;
 }
 @media screen and (max-width: 768px) {

@@ -12,7 +12,7 @@ function Aboutus() {
                         Ogilvy está compuesto por profesionales de amplia experiencia en todos los ámbitos.</p>
                     </div>
                     <div className="img_sobrenosotros">
-                        <img src='./images/sobrenosotros.png' alt='Imagen-ogilvy'></img>
+                        <img src='./images/sobrenosotros2.png' alt='Imagen-ogilvy'></img>
                     </div>
                 </div>
             </div>
