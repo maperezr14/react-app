@@ -99,6 +99,11 @@ body {
   color: #2F3E45;
   padding-top: 90px;
 }
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 69px;
+  }
+}
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Prata", serif;
   text-transform: uppercase;
@@ -162,6 +167,12 @@ footer .container p {
 .sectionBanner {
   margin-bottom: 70px;
 }
+@media screen and (max-width: 768px) {
+  .sectionBanner {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 .sectionBanner picture {
   width: 100%;
 }
@@ -195,8 +206,10 @@ section .textoimagen .textoprinp {
 }
 @media screen and (max-width: 768px) {
   section .textoimagen .textoprinp {
-    max-width: 90%;
+    max-width: 100%;
     margin-bottom: 30px;
+    margin-right: 0;
+    text-align: center;
   }
 }
 section .textoimagen .img_sobrenosotros {
@@ -204,7 +217,7 @@ section .textoimagen .img_sobrenosotros {
 }
 @media screen and (max-width: 768px) {
   section .textoimagen .img_sobrenosotros {
-    width: 60%;
+    width: 90%;
   }
 }
 section .textoimagen .img_sobrenosotros img {

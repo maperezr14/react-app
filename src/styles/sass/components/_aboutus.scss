@@ -21,14 +21,16 @@ section{
             margin-right: 100px;
             max-width: 35%;
             @media screen and (max-width: 768px){
-                max-width: 90%;
+                max-width: 100%;
                 margin-bottom: 30px;
+                margin-right: 0;
+                text-align: center;
                 }
         }
         .img_sobrenosotros{
             width: 40%;
             @media screen and (max-width: 768px){
-                width: 60%;
+                width: 90%;
                 }
             img{
                 border-radius: 10%;
